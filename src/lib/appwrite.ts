@@ -2,7 +2,7 @@ import { Client, Account, Databases, Storage, Functions, Avatars, ID } from 'app
 
 // Initialize the Appwrite client
 export const client = new Client()
-    .setEndpoint(process.env.APPWRITE_ENDPOINT || 'https://mentor-db.sustainablegrowthlabs.com/v1')
+    .setEndpoint(process.env.APPWRITE_ENDPOINT || '')
     .setProject(process.env.APPWRITE_PROJECT || '6723a47b7732b1007525');
 
 // Initialize services
